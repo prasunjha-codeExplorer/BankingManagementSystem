@@ -16,6 +16,15 @@ public class Transactions {
     private String transactionType;
     private LocalDate date;
     private long accountId;
+    private double amount;
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
 
     public long getTransactionId() {
         return transactionId;

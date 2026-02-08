@@ -4,10 +4,7 @@ import com.Banking_Application.demo.model.AccountHolder;
 import com.Banking_Application.demo.repository.AccountHolderRepo;
 import com.Banking_Application.demo.service.AccountHolderService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import tools.jackson.databind.JsonNode;
 
 import java.util.List;
@@ -28,5 +25,22 @@ public class AccountHolderContoller {
     @GetMapping("/show")
     public List<AccountHolder> showAccountHolderDetails(){
         return accountHolderService.getAllData();
+    }
+//  Get BY ID
+    @GetMapping("/getById/{id}")
+    public JsonNode getAccountHolderById(@PathVariable long id){
+        return accountHolderService.getById(id);
+    }
+
+//    Delete any accountHolder details
+    @DeleteMapping("/delete/{id}")
+    public JsonNode deleteAccountHolderById(@PathVariable long id){
+        return accountHolderService.deleteAccount(id);
+    }
+
+//    Deposit Money to Bank Account
+    @PostMapping("/deposit/{accountId}/{transactionId}/{money}")
+    public JsonNode deposit(@PathVariable long accountId, @PathVariable long transactionId,@PathVariable long money){
+        return accountHolderService.depositMoney(accountId,transactionId,money);
     }
 }
