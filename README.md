@@ -2,9 +2,9 @@
 
 A standalone Banking Management System built using Java to simulate core banking operations such as account creation, deposits, withdrawals, and balance inquiries.
 This project demonstrates practical implementation of Object-Oriented Programming (OOP) concepts and database integration using JDBC & MySQL.
+
+
 🚀 Features
-
-
 Create new bank accounts,
 Deposit and withdraw money,
 Check account balance,
