@@ -6,7 +6,7 @@ This project demonstrates practical implementation of Object-Oriented Programmin
 
 
 
-🚀 Features
+🚀 Features:
 Create new bank accounts,
 Deposit and withdraw money,
 Check account balance,
@@ -18,7 +18,7 @@ Persistent data storage using MySQL
 
 
 
-🛠 Tech Stack
+🛠 Tech Stack:
 Language: Java,
 Database: MySQL,
 Database Connectivity: JDBC,
@@ -30,7 +30,7 @@ Version Control: Git & GitHub
 
 
 
-🧠 Concepts Implemented
+🧠 Concepts Implemented:
 Object-Oriented Programming (Classes, Objects, Encapsulation),
 Relational Database Design,
 SQL Queries (INSERT, UPDATE, DELETE, SELECT),
