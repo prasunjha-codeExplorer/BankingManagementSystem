@@ -4,6 +4,8 @@ A standalone Banking Management System built using Java to simulate core banking
 This project demonstrates practical implementation of Object-Oriented Programming (OOP) concepts and database integration using JDBC & MySQL.
 
 
+
+
 🚀 Features
 Create new bank accounts,
 Deposit and withdraw money,
@@ -13,12 +15,20 @@ Input validation for secure transactions,
 Persistent data storage using MySQL
 
 
+
+
+
 🛠 Tech Stack
 Language: Java,
 Database: MySQL,
 Database Connectivity: JDBC,
 Concepts Used: OOP, Exception Handling, CRUD Operations,
 Version Control: Git & GitHub
+
+
+
+
+
 
 🧠 Concepts Implemented
 Object-Oriented Programming (Classes, Objects, Encapsulation),
