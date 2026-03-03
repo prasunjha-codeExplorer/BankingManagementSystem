@@ -6,10 +6,15 @@ This project demonstrates practical implementation of Object-Oriented Programmin
 🚀 Features
 
 Create new bank accounts
+
 Deposit and withdraw money
+ 
 Check account balance
+
 View account details
+
 Input validation for secure transactions
+
 Persistent data storage using MySQL
 
 
@@ -17,17 +22,26 @@ Persistent data storage using MySQL
 🛠 Tech Stack
 
 Language: Java
+
 Database: MySQL
+
 Database Connectivity: JDBC
+
 Concepts Used: OOP, Exception Handling, File Handling (if used), CRUD Operations
+
 Version Control: Git & GitHub
 
 
 🧠 Concepts Implemented
 
 Object-Oriented Programming (Classes, Objects, Encapsulation)
+
 Relational Database Design
+
 SQL Queries (INSERT, UPDATE, DELETE, SELECT)
+
 Joins and Data Retrieval
+
 Input Validation & Error Handling
+
 Persistent Data Storage
